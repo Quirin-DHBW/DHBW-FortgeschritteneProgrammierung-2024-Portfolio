@@ -73,40 +73,36 @@ The generic concept is to immitate an application like Spotify: enabling the use
 
 ## The Plan
 
-The Plan and it's execution happened in a few stages, outlined and described here:
-1. **Definition of Desired Features**
-    - Similar in concept to a [Product Requirements Document](https://en.wikipedia.org/wiki/Product_requirements_document)
-    - Loosely written as larger multi-line comments inside of the code
-2. **Definition of Sub-Goals**
-    - Breaking down of the desired features into individual requirements
-    - Combining and linking of sub-goals into concrete code targets like functions or classes
-3. **Initial Framework**
-    - Creation of classes
-    - Defining of empty functions (The functions only have their inputs and outputs defined at this stage)
-    - Writing of main loop, and hooking up the various functions with each other
-4. **Writing of code**
-    - Each function is now given functionality to fit into the predefined inputs and outputs
-    - "UI elements" and functionality is added, and pre-existing functions hooked up
+The Plan and it's execution happened in a few stages, outlined and described here.
 
 
 ### Plan Stage 1
 
-a!
+**Definition of Desired Features**
+- Similar in concept to a [Product Requirements Document](https://en.wikipedia.org/wiki/Product_requirements_document)
+- Loosely written as larger multi-line comments inside of the code
 
 
 ### Plan Stage 2
 
-b!
+**Definition of Sub-Goals**
+- Breaking down of the desired features into individual requirements
+- Combining and linking of sub-goals into concrete code targets like functions or classes
 
 
 ### Plan Stage 3
 
-c!
+**Initial Framework**
+- Creation of classes
+- Defining of empty functions (The functions only have their inputs and outputs defined at this stage)
+- Writing of main loop, and hooking up the various functions with each other
 
 
 ### Plan Stage 4
 
-d!
+**Writing of code**
+- Each function is now given functionality to fit into the predefined inputs and outputs
+- "UI elements" and functionality is added, and pre-existing functions hooked up
 
 
 ---
