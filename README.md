@@ -189,4 +189,3 @@ The [Binary Search](#binary-search) has a time efficiency of **O(log n)** as it 
 ---
 ---
 
-<img src="https://imgs.xkcd.com/comics/depth_and_breadth.png">
