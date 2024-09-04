@@ -28,7 +28,7 @@
 |[**Runtimes**](#runtimes)|
 |[↳ Sorting Runtimes](#sorting-runtimes)|
 |[↳ Search Runtimes](#search-runtime)|
-|[↳ ]()|
+|[↳ Runtime Comparison](#runtime-comparison)|
 
 
 ---
