@@ -441,7 +441,8 @@ def settings_menu(state:dict) -> int:
                 safe_stalin_bogo_sort(debug_list, "title")
 
                 rng.shuffle(debug_list)
-                bogo_sort(debug_list, "title")
+                #bogo_sort(debug_list, "title")
+                print("Bogo Sort has been Ommited to respect your time.")
             case "m":
                 return 1
             case _:

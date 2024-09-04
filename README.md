@@ -179,7 +179,21 @@ Bogo Sort has one of the best and worst runtimes possible, namely it *can* be **
 
 The [Linear Search](#linear-search) has a time efficiency of **O(n)** and requires no additional memory (besides where the solution is stored) as we simply check all **n** elements once. This does mean it doesn't scale great, but it is good enough for the smaller sets of songs used here.
 
-The [Binary Search](#binary-search) has a time efficiency of **O(log n)** as it keeps halving the search space each step. As this halfing doesn't create new lists the memory used doesn't change.
+The [Binary Search](#binary-search) has a time efficiency of **O(log n)** as it keeps halving the search space each step. As this halfing doesn't create new lists the memory used doesn't change. As Binary Search can't fulfill the requirements of the Project as previously described. A demonstration/comparison of Binary Search is Provided in the `comparison_tests.py` among other things.
+
+
+### Runtime Comparison
+
+The values in this Table are the average from 3 runs. To get these values simply run `comparison_tests.py`
+
+|Algorithm|Time (in seconds)|List Size|
+|:-|-:|-:|
+|Python Default|0.0000695 sec|250|
+|Safe Stalin|0.29246 sec|250|
+|Safe Bogo Stalin|2.77519 sec|250|
+|Bogo|90+ sec|10|
+|Linear Search|0.0008008 sec|1000|
+|Binary Search|0.0002492 sec|1000|
 
 
 ---
